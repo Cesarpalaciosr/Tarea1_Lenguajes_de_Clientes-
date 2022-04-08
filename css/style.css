@@ -1,0 +1,51 @@
+
+body{
+  background: rgb(95,89,149);
+  background: linear-gradient(266deg, rgba(95,89,149,1) 25%, rgba(235,93,177,1) 96%);
+  margin: 0%;
+  padding: 0%;
+  }
+header{
+  background-color: #333;
+  margin: 0px;
+  padding: 0%;
+}
+
+main-head{
+  background-color: #333;
+}
+page-menu{
+  background-color: #333;
+}
+  .hamburger{
+    background-color: #333;
+    padding-left:1%;
+    padding-top:1%;
+    padding-bottom:1%;
+    cursor: pointer;
+  }
+  .hamburger-in{
+    width:30px;
+    height:35px;
+  }
+  .hamburger-in div{
+    position:relative;
+    width: 30px;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius:2px;
+  }
+  #ham1{
+    transition: transform 1s;
+    transform-origin: left;
+    top:5px;
+  }
+  #ham2{
+    transition: transform 1s;
+    top:10px;
+  }
+  #ham3{
+    transition: transform 1s;
+    transform-origin: left;
+    top:15px;
+  }
