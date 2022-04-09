@@ -16,9 +16,9 @@ class menu extends HTMLElement {
                 <li><a href="#" onclick = "op1OnClick()">Planilla</a>
                     <option-panel></option-panel>
                 </li>
-                <li><a class = "resources" id = "resources" onclick = "op2OnClick()">Recursos</a></li>
-                <li><a href="#" onclick = "op3OnClick()">Acerca de</a></li>
-                <li><a href="#" onclick = "op4OnClick()">Contacto</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav> 
         </div>
